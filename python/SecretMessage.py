@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv() 
 URL = os.getenv("SECRET_MESSAGE_URL")
-print(URL)
 
 def get_data(url):
      # Get the content of the google doc url
